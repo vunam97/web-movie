@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies website</title>
+
+    <!---------------- css link --------------------->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/lightslider.css">
+
+    <!---------------------- Js link -------------------->
+    <script src="./js/JQuery3.3.1.js"></script>
+    <script src="./js/lightslider.js"></script>
+
+    <!----------------------------------- font awesome ---------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <!------------------- shortcut icon -------------------->
+    <link rel="shortcut icon" href="./images/fav icon.png">
+</head>
+<body>
+    <!-- navigation -------------->
+    <nav>
+        <!-- logo --------------->
+        <a href="#" class="logo">
+            <img src="./images/logo.png" alt="logo">
+        </a>
+        <!-------------- Menu-nav ---------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <!-- menu ----------------->
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV Show</a></li>
+            <li><a href="#">Hollywood</a></li>
+            <li><a href="#">Horror</a></li>
+        </ul>
+        <!-- Search ----------------------->
+        <div class="search">
+            <input type="text" placeholder="Tìm phim"/>
+            <!-- Search icon ------------------->
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+
+    <section id="main">
+        <!---- showcase ---------------------->
+        <!-------------------- heading ------------------------------>
+        <h1 class="showcase-heading">Showcase</h1>
+        <ul id="autoWidth" class="cs-hidden">
+            <!----------- box1 -------------->
+            <li class="item-a">
+                <!-- showcase-box -------------->
+                <div class="showcase-box">
+                    <img src="./images/s-1.jpg" alt="pic1"/>
+                </div>
+            </li>
+            <!----------- box2 -------------->
+            <li class="item-b">
+                <!-- showcase-box -------------->
+                <div class="showcase-box">
+                    <img src="./images/s-2.jpg" alt="pic2"/>
+                </div>
+            </li>
+            <!------------------ box3 -------------->
+            <li class="item-c">
+                <!-- showcase-box -------------->
+                <div class="showcase-box">
+                    <img src="./images/s-3.jpg" alt="pic3"/>
+                </div>
+            </li>
+            <!--------------------- box4 -------------->
+            <li class="item-d">
+                <!-- showcase-box -------------->
+                <div class="showcase-box">
+                    <img src="./images/s-4.jpg" alt="pic4"/>
+                </div>
+            </li>
+            <!-------------------- box5 -------------->
+            <li class="item-e">
+                <!-- showcase-box -------------->
+                <div class="showcase-box">
+                    <img src="./images/s-5.png" alt="pic5"/>
+                </div>
+            </li> 
+        </ul>
+
+    </section>
+    <!-- latest-movies ----------------->
+    <section id="latest">
+        <h2 class="latest-heading">Latest Movies</h2>
+        <!----------------- slider ---------------------->
+        <ul id="autoWidth2" class="cs-hidden">
+            <!-- slder-box1 ------------------>
+            <li class="item-a">
+                <div class="latest-box">
+                    <!-------------- img ------------------->
+                    <div class="latest-b-img">
+                        <img src="./images/m-1.jpg"/>
+                    </div>
+                    <!------------------ text -------------->
+                    <div class="latest-b-text">
+                        <strong>Kin - Vũ khí bí ẩn</strong>
+                        <p>Hành động</p>
+                    </div>
+                </div>
+            </li>
+            <!-- slder-box2 ------------------>
+            <li class="item-b">
+                <div class="latest-box">
+                    <!-------------- img ------------------->
+                    <div class="latest-b-img">
+                        <img src="./images/m-2.jpg"/>
+                    </div>
+                    <!------------------ text -------------->
+                    <div class="latest-b-text">
+                        <strong>Peninsium (Bán đảo)</strong>
+                        <p>Hành động/Kinh dị</p>
+                    </div>
+                </div>
+            </li>
+            <!-- slder-box3 ------------------>
+            <li class="item-c">
+                <div class="latest-box">
+                    <!-------------- img ------------------->
+                    <div class="latest-b-img">
+                        <img src="./images/m-3.jpg"/>
+                    </div>
+                    <!------------------ text -------------->
+                    <div class="latest-b-text">
+                        <strong>Kẻ đánh cắp giấc mơ</strong>
+                        <p>Hành động</p>
+                    </div>
+                </div>
+            </li>
+            <!-- slder-box4 ------------------>
+            <li class="item-d">
+                <div class="latest-box">
+                    <!-------------- img ------------------->
+                    <div class="latest-b-img">
+                        <img src="./images/m-4.jpg"/>
+                    </div>
+                    <!------------------ text -------------->
+                    <div class="latest-b-text">
+                        <strong>Iron man 3</strong>
+                        <p>Hành động</p>
+                    </div>
+                </div>
+            </li>
+            <!-- slder-box5 ------------------>
+            <li class="item-e">
+                <div class="latest-box">
+                    <!-------------- img ------------------->
+                    <div class="latest-b-img">
+                        <img src="./images/m-5.jpg"/>
+                    </div>
+                    <!------------------ text -------------->
+                    <div class="latest-b-text">
+                        <strong>Venom</strong>
+                        <p>Hành động</p>
+                    </div>
+                </div>
+            </li>
+            <!-- slder-box6 ------------------>
+            <li class="item-f">
+                <div class="latest-box">
+                    <!-------------- img ------------------->
+                    <div class="latest-b-img">
+                        <img src="./images/m-6.jpg"/>
+                    </div>
+                    <!------------------ text -------------->
+                    <div class="latest-b-text">
+                        <strong>Aquaman</strong>
+                        <p>Hành động</p>
+                    </div>
+                </div>
+            </li>
+            <!-- slder-box7 ------------------>
+            <li class="item-g">
+                <div class="latest-box">
+                    <!-------------- img ------------------->
+                    <div class="latest-b-img">
+                        <img src="./images/m-7.jpeg"/>
+                    </div>
+                    <!------------------ text -------------->
+                    <div class="latest-b-text">
+                        <strong>Thám hiểm rừng xang</strong>
+                        <p>Phiêu lưu/Kỳ ảo</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!--------------------- movie ------------------->
+    <div class="movies-heading">
+        <h2>Movies</h2>
+    </div>
+    <section id="movies-list">
+        <!---------- box1 ------------------>
+        <div class="movies-box">
+            <!------------- img ---------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="./images/l-1.jpg">
+            </div>
+            <!------------ text ------------>
+            <a href="#">
+                Tin(2018) Full Movie [in English]
+            </a>
+        </div>
+        <!---------- box2 ------------------>
+        <div class="movies-box">
+            <!------------- img ---------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="./images/l-2.jpg">
+            </div>
+            <!------------ text ------------>
+            <a href="#">
+                Tin(2018) Full Movie [in English]
+            </a>
+        </div>
+        <!---------- box3 ------------------>
+        <div class="movies-box">
+            <!------------- img ---------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="./images/l-3.jpg">
+            </div>
+            <!------------ text ------------>
+            <a href="#">
+                Tin(2018) Full Movie [in English]
+            </a>
+        </div>
+        <!---------- box4 ------------------>
+        <div class="movies-box">
+            <!------------- img ---------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="./images/l-4.jpg">
+            </div>
+            <!------------ text ------------>
+            <a href="#">
+                Tin(2018) Full Movie [in English]
+            </a>
+        </div>
+        <!---------- box5 ------------------>
+        <div class="movies-box">
+            <!------------- img ---------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="./images/l-5.jpg">
+            </div>
+            <!------------ text ------------>
+            <a href="#">
+                Tin(2018) Full Movie [in English]
+            </a>
+        </div>
+        <!---------- box6 ------------------>
+        <div class="movies-box">
+            <!------------- img ---------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="./images/l-6.jpg">
+            </div>
+            <!------------ text ------------>
+            <a href="#">
+                Tin(2018) Full Movie [in English]
+            </a>
+        </div>
+        <!---------- box7 ------------------>
+        <div class="movies-box">
+            <!------------- img ---------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="./images/l-7.jpg">
+            </div>
+            <!------------ text ------------>
+            <a href="#">
+                Tin(2018) Full Movie [in English]
+            </a>
+        </div>
+        <!---------- box8 ------------------>
+        <div class="movies-box">
+            <!------------- img ---------------->
+            <div class="movies-img">
+                <div class="quality">HDRip</div>
+                <img src="./images/l-8.jpg">
+            </div>
+            <!------------ text ------------>
+            <a href="#">
+                Tin(2018) Full Movie [in English]
+            </a>
+        </div>
+    </section>
+    <!----------- btn ------------------------>
+    <div class="btns">
+        <a href="#">Previos</a>
+        <a href="#">Next</a>
+    </div>
+    <!------------ footer --------------------->
+    <footer>
+        <p>Going to Inernet, Ltd Consumer Website</p>
+        <p>Copyright 2020 - Going to Internet</p>
+    </footer>
+
+    <!-- slider-script ------------------------>
+    <script>
+        $(document).ready(function() {
+            $('#autoWidth, #autoWidth2').lightSlider({
+                autoWidth:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#autoWidth, #autoWidth2').removeClass('cS-hidden');
+                } 
+            });  
+        });
+    </script>
+</body>
+</html>
